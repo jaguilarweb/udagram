@@ -22,3 +22,7 @@ The CircleCi follow the next steps (included in the config.yml file):
 - Checkout code
 - Build
 - Deploy
+
+## Pipeline Diagram
+
+![](https://github.com/jaguilarweb/udagram/blob/master/documentation/pipeline-diagram.png)
