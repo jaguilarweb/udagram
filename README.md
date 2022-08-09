@@ -1,40 +1,36 @@
-# Udagram
+# Hosting a Full-Stack Application Udagram
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+## Overview
 
-## Getting Started
+The project application Udagram is an Image Filtering application, allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering service. It has two components:
 
-1. Clone this repo locally into the location of your choice.
-1. Move the content of the udagram folder at the root of the repository as this will become the main content of the project.
-1. Open a terminal and navigate to the root of the repo
-1. follow the instructions in the installation step
+Frontend - Angular web application built with Ionic framework
+Backend RESTful API - Node-Typescript application
 
-The project can run but is missing some information to connect to the database and storage service. These will be setup during the course of the project
+The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-### Dependencies
 
-```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+### Screenshot
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+(OF the working application)
 
-- AWS CLI v2, v1 can work but was not tested for this project
 
-- A RDS database running Postgres.
 
-- A S3 bucket for hosting uploaded pictures.
+- The last successful CircleCi build
+(Supply diferent screenshot for phases - build, hold, deploy)
 
-```
+- AWS RDS for the database
+- AWS ElasticBeanstalk for de (backend) API deployment.
+- AWS S3 for (frontend) web hosting
 
-### Installation
 
-Provision the necessary AWS services needed for running the application:
+### Arquitecture Diagram (high level overview of the infraestructure)
 
-1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for tlink to classroom article>
-1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
-1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
-1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
+
+
+
+## Links to host
+
 
 ## Testing
 
@@ -63,3 +59,12 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+
+
+## Disclaimer
+- Disclaimer: This is a learning proposal or test project and your use of the code is under your own accountability.
+
+- Trademarks: Any of the trademarks, service marks, collective marks, design rights, personality rights or similar rights that are mentioned, used or cited in this project are the property of their respective owners. Their use here does not imply that you may use them for any other purpose other than for the same or a similar informational use as contemplated by the original authors.
+
+## Author
+ Udacity provides the case and Jenny Aguilar (@jaguilarweb) suggests the solution.
